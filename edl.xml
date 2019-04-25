@@ -2,19 +2,21 @@
         <type>
           <ip>
             <recurring>
-              <hourly>
+              <hourly/>
             </recurring>
             <url>https://192.168.35.132/feeds/o365-any-any-ipv4-feed</url>
+            <certificate-profile>acme-ca</certificate-profile>
           </ip>
         </type>
       </entry>
-      <entry>
+      <entry name="Office365-URL-Any">
         <type>
           <url>
             <recurring>
-              <hourly>
+              <hourly/>
             </recurring>
             <url>https://192.168.35.132/feeds/o365-any-any-url-feed</url>
+            <certificate-profile>acme-ca</certificate-profile>
           </url>
         </type>
       </entry>
