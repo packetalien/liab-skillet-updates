@@ -1,0 +1,46 @@
+# skillet preamble information used by panhandler
+# ---------------------------------------------------------------------
+# unique snippet name
+name: App-ID SSL Decrypt Demo Config
+# label used for menu selection
+label: App-ID Demo
+description: This Skillet will add the App-ID demo config to the VM-Series.
+
+# type of device configuration
+# common types are panorama, panos, and template
+# https://github.com/PaloAltoNetworks/panhandler/blob/develop/docs/metadata_configuration.rst
+type: panos
+# preload static or default-based templates
+extends:
+
+# grouping of like snippets for dynamic menu creation in panhandler
+labels:
+  collection:
+    - Lab in a Box Demos
+
+# ---------------------------------------------------------------------
+# end of preamble section
+
+# variables section
+# ---------------------------------------------------------------------
+# variables used in the configuration templates
+# type_hint defines the form field used by panhandler
+# type_hints can be text, ip_address, or dropdown
+variables:
+
+# ---------------------------------------------------------------------
+# end of variables section
+
+# snippets section
+# ---------------------------------------------------------------------
+# snippets used for api configuration including xpath and element as file name
+# files will load in the order listed
+snippets:
+  - name: decrypt_policies
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/decryption
+    file: decryption_policies.xml
+  - name: App_ID_Policies
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/external-list
+    file: app_id_policies.xml
+# ---------------------------------------------------------------------
+# end of snippets section

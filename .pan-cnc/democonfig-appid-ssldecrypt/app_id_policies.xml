@@ -1,0 +1,118 @@
+    <entry name="Facebook-Marketing-Post">
+      <profile-setting >
+        <profiles >
+          <url-filtering >
+            <member >default</member>
+          </url-filtering>
+          <file-blocking >
+            <member >basic file blocking</member>
+          </file-blocking>
+          <virus >
+            <member >default</member>
+          </virus>
+          <spyware >
+            <member >default</member>
+          </spyware>
+          <vulnerability >
+            <member >default</member>
+          </vulnerability>
+          <wildfire-analysis >
+            <member >default</member>
+          </wildfire-analysis>
+        </profiles>
+      </profile-setting>
+      <to >
+        <member >untrust</member>
+      </to>
+      <from >
+        <member >trust</member>
+      </from>
+      <source >
+        <member >any</member>
+      </source>
+      <destination >
+        <member >any</member>
+      </destination>
+      <source-user >
+        <member >cn=marketing,ou=regularusers,dc=acme,dc=com</member>
+      </source-user>
+      <category >
+        <member >social-networking</member>
+      </category>
+      <application >
+        <member >facebook-base</member>
+        <member >facebook-posting</member>
+        <member >ssl</member>
+        <member >web-browsing</member>
+      </application>
+      <service >
+        <member >application-default</member>
+      </service>
+      <hip-profiles >
+        <member >any</member>
+      </hip-profiles>
+      <tag >
+        <member >Allow</member>
+      </tag>
+      <action >allow</action>
+      <description >Rule to allow for users in the Marketing Group to post to facebook.</description>
+      <log-setting >Default-Logging-Profile</log-setting>
+    </entry>
+    <entry name="Facebook-Allow-Only-Read">
+      <profile-setting>
+        <profiles>
+          <url-filtering>
+            <member >default</member>
+          </url-filtering>
+          <file-blocking >
+            <member >basic file blocking</member>
+          </file-blocking>
+          <virus >
+            <member >default</member>
+          </virus>
+          <spyware >
+            <member >default</member>
+          </spyware>
+          <vulnerability >
+            <member >default</member>
+          </vulnerability>
+          <wildfire-analysis >
+            <member >default</member>
+          </wildfire-analysis>
+        </profiles>
+      </profile-setting>
+      <to >
+        <member >untrust</member>
+      </to>
+      <from >
+        <member >trust</member>
+      </from>
+      <source >
+        <member >any</member>
+      </source>
+      <destination >
+        <member >any</member>
+      </destination>
+      <source-user >
+        <member >any</member>
+      </source-user>
+      <category >
+        <member >social-networking</member>
+      </category>
+      <application >
+        <member >facebook-base</member>
+        <member >ssl</member>
+        <member >web-browsing</member>
+      </application>
+      <service >
+        <member >application-default</member>
+      </service>
+      <hip-profiles >
+        <member >any</member>
+      </hip-profiles>
+      <action >allow</action>
+      <log-setting >Default-Logging-Profile</log-setting>
+      <tag>
+        <member>Allow</member>
+      </tag>
+    </entry>
