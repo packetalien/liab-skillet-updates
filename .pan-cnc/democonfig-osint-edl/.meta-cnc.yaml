@@ -1,10 +1,10 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: pan-skillet-liab-updates
+name: OSINT Demo Config
 # label used for menu selection
-label: panhandler-liab-updates
-description: This Skillet will add two EDL a Cert Profile and a Policy to your LiaB.
+label: OSINT Demo Config
+description: This Skillet will add an alert policy and the DShield top 20 feed for Demos.
 
 # type of device configuration
 # common types are panorama, panos, and template
@@ -16,7 +16,7 @@ extends:
 # grouping of like snippets for dynamic menu creation in panhandler
 labels:
   collection:
-    - Lab in a Box Updates
+    - Lab in a Box Demos
 
 # ---------------------------------------------------------------------
 # end of preamble section

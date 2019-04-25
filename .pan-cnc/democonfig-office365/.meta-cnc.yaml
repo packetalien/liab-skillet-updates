@@ -1,9 +1,9 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: pan-skillet-liab-updates
+name: Office365 Demo Config
 # label used for menu selection
-label: panhandler-liab-updates
+label: Office365 Demo Config
 description: This Skillet will add two EDL a Cert Profile and a Policy to your LiaB.
 
 # type of device configuration
@@ -16,7 +16,7 @@ extends:
 # grouping of like snippets for dynamic menu creation in panhandler
 labels:
   collection:
-    - Lab in a Box Updates
+    - Lab in a Box Demos
 
 # ---------------------------------------------------------------------
 # end of preamble section
