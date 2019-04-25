@@ -38,7 +38,7 @@ variables:
 snippets:
   - name: decrypt_policies
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/decryption
-    file: decryption_policies.xml
+    file: decrypt_policies.xml
   - name: App_ID_Policies
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/external-list
     file: app_id_policies.xml
