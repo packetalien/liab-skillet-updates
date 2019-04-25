@@ -37,10 +37,10 @@ variables:
 # files will load in the order listed
 snippets:
   - name: decrypt_policies
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/decryption
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/decryption/rules
     file: decrypt_policies.xml
   - name: App_ID_Policies
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/external-list
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security/rules
     file: app_id_policies.xml
 # ---------------------------------------------------------------------
 # end of snippets section
