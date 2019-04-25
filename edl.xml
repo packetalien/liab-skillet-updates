@@ -1,0 +1,20 @@
+      <entry name="Office365-IPv4-Any">
+        <type>
+          <ip>
+            <recurring>
+              <hourly>
+            </recurring>
+            <url>https://192.168.35.132/feeds/o365-any-any-ipv4-feed</url>
+          </ip>
+        </type>
+      </entry>
+      <entry>
+        <type>
+          <url>
+            <recurring>
+              <hourly>
+            </recurring>
+            <url>https://192.168.35.132/feeds/o365-any-any-url-feed</url>
+          </url>
+        </type>
+      </entry>
