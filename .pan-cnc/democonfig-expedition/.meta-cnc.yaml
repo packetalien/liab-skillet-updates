@@ -1,9 +1,9 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: Demo Config Expedition
+name: Expedition Demo Config
 # label used for menu selection
-label: Demo Config Expedition
+label: Expedition Demo Config
 description: This Skillet will add policies needed for Expedition Demos.
 
 # type of device configuration

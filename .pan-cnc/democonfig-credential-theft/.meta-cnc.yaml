@@ -1,9 +1,9 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: Demo Config Credential Theft
+name: Credential Theft Demo Config
 # label used for menu selection
-label: DemoConfig Credential Theft
+label: Credential Theft Demo Config
 description: This Skillet will add the Credential Theft Prevention config to your VM-Series.
 
 # type of device configuration
