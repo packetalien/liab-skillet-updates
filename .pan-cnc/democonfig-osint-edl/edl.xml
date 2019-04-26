@@ -1,0 +1,11 @@
+      <entry name="OSINT-HC-Dshield-IPv4">
+        <type>
+          <ip>
+            <recurring>
+              <hourly/>
+            </recurring>
+            <url>https://192.168.35.132/feeds/OSINT-HC-Dshield-IPv4</url>
+            <certificate-profile>acme-ca</certificate-profile>
+          </ip>
+        </type>
+      </entry>
