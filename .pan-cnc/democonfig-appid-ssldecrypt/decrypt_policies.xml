@@ -29,7 +29,6 @@
       </tag>
       <action>no-decrypt</action>
       <profile>default</profile>
-      <group-tag>Northbound</group-tag>
     </entry>
     <entry name="Inspection-Default">
       <category>
@@ -62,5 +61,4 @@
         <member>Northbound</member>
       </tag>
       <profile>default</profile>
-      <group-tag>Northbound</group-tag>
     </entry>
