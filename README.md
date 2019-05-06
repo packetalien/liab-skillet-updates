@@ -1,5 +1,5 @@
 # liab-skillet-updates
-This is a Skillet for Lab in a Box Updates. The purpose is to provide an easy method for Systems Engineers to update their demo VM-Series. Once loaded the skillet can apply changes to the VM-Series with a mouse click.
+This is a Skillet for Lab in a Box. The purpose is to provide an easy method for Systems Engineers to update their demo VM-Series. Once loaded the series of demo skillets can apply changes to the VM-Series with a mouse click.
 
 ## Contributing
 
